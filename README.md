@@ -20,7 +20,7 @@ It exposes the my-deployment1 Deployment as a Service named my-service1, making 
 
 3. Lists all services in the default namespace. Services provide a stable IP address and DNS name for accessing a set of pods.
 ```
- kubectl get services```
+ kubectl get services ```
 This command lists all the services in the default namespace, including nginx-service, and provides details such as the ClusterIP, NodePort, and target port.
 
 
