@@ -1,14 +1,16 @@
 **1. Create a Deployment named my-deployment1 using the nginx image**
 ```bash
  kubectl create deployment my-deployment1 --image=nginx
-``` 
+```
+### 
 **kubectl**: The command-line tool for interacting with the Kubernetes API.
 
 **create deployment**: Tells Kubernetes that you want to create a new Deployment. A Deployment is a Kubernetes object that manages a set of replicated Pods, ensuring that the specified number of replicas are running and updated.
 
 **my-deployment1**: It is the name of the Deployment being created. In this case, the Deployment is named my-deployment1.
 
-**--image=nginx**: It specifies the container image used for the Pods managed by this Deployment. The nginx image is a popular web server and reverse proxy server.
+**--image=nginx**: It specifies the container image used for the Pods managed by this Deployment. The nginx image is a popular web server and reverse proxy server. 
+###
 
   It creates a Deployment named my-deployment1 that uses the nginx image. Deployments manage the rollout and scaling of applications.
 
