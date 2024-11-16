@@ -1,5 +1,5 @@
 1. Create a Deployment named my-deployment1 using the nginx image
-```
+```bash
  kubectl create deployment my-deployment1 --image=nginx
 ``` 
 **kubectl**: The command-line tool for interacting with the Kubernetes API.
