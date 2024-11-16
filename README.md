@@ -13,6 +13,7 @@
 
 
 
+
 ## 2. Expose the deployment as a service
 ```
   kubectl expose deployment my-deployment1 --port=80 --type=NodePort --name=my-service1
@@ -26,11 +27,13 @@ It exposes the my-deployment1 Deployment as a Service named my-service1, making 
 This command lists all the services in the default namespace, including nginx-service, and provides details such as the ClusterIP, NodePort, and target port.
 
 
+
 ## 4. Get the list of pods
 ```
 kubectl get pods
 ```
 This command displays all pods, including those created by the my-deployment1 Deployment.
+
 
 ## 5. Show labels
  ```
@@ -38,11 +41,13 @@ kubectl get pod <pod-name> --show-labels
 ```
 This command will list the labels associated with the specified pod, helping you identify its attributes and categorization within your Kubernetes cluster.
 
+
 ## 6. Label the pod
 ```
 kubectl label pods <pod-name> environment=deployment
 ```
 The command is used in Kubernetes to label a specific pod with the key-value pair *environment=deployment* . This label helps categorize and manage pods based on their deployment environment, making it easier to organize and select Kubernetes objects within the cluster.
+
 
  ## 7.Show logs
 ```
