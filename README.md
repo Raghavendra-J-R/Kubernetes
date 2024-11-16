@@ -49,7 +49,7 @@ kubectl label pods <pod-name> environment=deployment
 The command is used in Kubernetes to label a specific pod with the key-value pair *environment=deployment* . This label helps categorize and manage pods based on their deployment environment, making it easier to organize and select Kubernetes objects within the cluster.
 
 
- ## 7.Show logs
+ ## 7. Show logs
 ```
 kubectl logs <pod-name>
 ```
