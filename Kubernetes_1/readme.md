@@ -78,3 +78,11 @@ __*AVAILABLE*__: The number of DaemonSet pods that are available for use.
 __*NODE SELECTOR*__: Specifies which nodes in the cluster the DaemonSet should run on. In this case, it's set to <none>, meaning the DaemonSet is not restricted to specific nodes.
 
 __*AGE*__: The age of the DaemonSet, indicating how long it has been running.
+
+
+As minikube has been used as Kubernetes cluster :
+
+Use the below command to get the external IP and access the webpage
+```
+minikube service <service-name> --url
+```
