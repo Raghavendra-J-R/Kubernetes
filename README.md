@@ -20,20 +20,27 @@ It exposes the my-deployment1 Deployment as a Service named my-service1, making 
 
 3. Lists all services in the default namespace. Services provide a stable IP address and DNS name for accessing a set of pods.
 ```
- kubectl get services ```
+ kubectl get services
+```
 This command lists all the services in the default namespace, including nginx-service, and provides details such as the ClusterIP, NodePort, and target port.
 
 
 4. Get the list of pods
-```  kubectl get pods ```
+```
+kubectl get pods
+```
 This command displays all pods, including those created by the my-deployment1 Deployment.
 
-5. Show labels
- ``` kubectl get pod <pod-name> --show-labels ```
+6. Show labels
+ ```
+kubectl get pod <pod-name> --show-labels
+```
 This command will list the labels associated with the specified pod, helping you identify its attributes and categorization within your Kubernetes cluster.
 
-6. Label the pod
-```   kubectl label pods <pod-name> environment=deployment ```
+8. Label the pod
+```
+kubectl label pods <pod-name> environment=deployment
+```
 
 The command is used in Kubernetes to label a specific pod with the key-value pair **environment=deployment** . This label helps categorize and manage pods based on their deployment environment, making it easier to organize and select Kubernetes objects within the cluster.
 
