@@ -1,8 +1,7 @@
-**1. Create a Deployment named my-deployment1 using the nginx image**
+## 1. Create a Deployment named my-deployment1 using the nginx image**
 ```bash
  kubectl create deployment my-deployment1 --image=nginx
 ```
-<textarea>
  
 **kubectl**: The command-line tool for interacting with the Kubernetes API.
 
@@ -12,7 +11,7 @@
 
 **--image=nginx**: It specifies the container image used for the Pods managed by this Deployment. The nginx image is a popular web server and reverse proxy server. 
 
-<textarea/>
+
 
 
 
