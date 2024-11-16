@@ -1,1 +1,3 @@
-''' 1. Create a Deployment named my-deployment1 using the nginx image '''
+''' 
+1. Create a Deployment named my-deployment1 using the nginx image
+ '''
