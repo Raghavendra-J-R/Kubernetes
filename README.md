@@ -26,7 +26,7 @@ This command lists all the services in the default namespace, including nginx-se
 
 
 **4. Get the list of pods**
-```text
+```
 kubectl get pods
 ```
 This command displays all pods, including those created by the my-deployment1 Deployment.
